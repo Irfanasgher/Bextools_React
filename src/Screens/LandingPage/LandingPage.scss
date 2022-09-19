@@ -1,0 +1,129 @@
+#landing {
+  background: url("./../../assets/images/bg.png");
+  position: relative;
+  padding: 20px;
+  background-size: cover;
+  overflow: scroll;
+  height: 100vh;
+  .smallTab {
+    margin-top: 145px;
+    .tabButton {
+      border-radius: 10px;
+      background: #242434 !important;
+      border: none;
+      width: 251px;
+      height: 32px;
+      padding: 3px 4px !important;
+      display: flex;
+      .leftPane {
+        height: 24px;
+        width: 116px;
+        background: #f0b90b;
+        border-radius: 10px;
+        color: black;
+        font-size: 12px;
+        font-weight: bold;
+      }
+      .rightPane {
+        font-size: 12px;
+        color: #888c9f;
+        font-weight: bold;
+        display: flex;
+        align-items: center;
+        padding-left: 10px;
+        height: 24px;
+        width: 116px;
+      }
+    }
+  }
+  h1.title {
+    color: white;
+    font-size: 72px;
+  }
+  p.subtitle {
+    color: rgb(216, 216, 216);
+  }
+  .customButtons {
+    color: black;
+    border: none;
+    border-radius: 10px;
+    width: 45px;
+    height: 45px;
+    width: 167px;
+    color: black;
+    font-size: 20px;
+    font-weight: bold;
+  }
+  .yellowColor {
+    background: #f0b90b;
+    img {
+      width: 33px;
+      margin-right: 7px;
+    }
+  }
+  .whiteColor {
+    background: white;
+  }
+  .icon {
+    cursor: pointer;
+  }
+  .footerBottom {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    width: 100%;
+    .footer {
+      li {
+        color: white;
+        list-style: none;
+        text-decoration: none;
+        padding: 0px 10px;
+        span {
+          font-weight: bold;
+        }
+      }
+    }
+  }
+  @media (max-width: 768px) {
+    h1.title {
+      font-size: 45px;
+    }
+    .smallTab {
+      margin-top: 90px;
+    }
+  }
+  @media (max-width: 550px) {
+    .iconsColumn {
+      flex-direction: column !important;
+    }
+    .customButtons {
+      width: 100%;
+      margin-top: 20px;
+      margin-right: 0px !important;
+    }
+    .socialIcons {
+      justify-content: center;
+      margin-top: 20px;
+    }
+    .smallTab {
+      margin-top: 25px;
+    }
+    .footerBottom {
+      position: relative;
+      right: 0;
+      bottom: 0;
+      .footer {
+        padding-left: 0px;
+        margin-top: 20px;
+      }
+    }
+  }
+  @media (max-width: 550px) {
+    h1.title {
+      font-size: 35px;
+    }
+    ul.footer {
+      display: block !important;
+    }
+  }
+}

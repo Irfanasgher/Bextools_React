@@ -1,0 +1,29 @@
+#footer {
+    .footer-container {
+        width: '100%';
+        background: #0c0c0c;
+        box-shadow: inset 0px 1px rgba(112, 112, 112, 0.2);
+    }
+    .copyright {
+        color: #707070;
+        font-size: 14px;
+        margin-bottom: 0px;
+    }
+}
+
+@media (max-width: 768px) {
+    #footer {
+        .copyright {
+            font-size: 14px;
+        }
+    }
+}
+
+@media (max-width: 425px) {
+    #footer {
+        .copyright {
+            font-size: 14px;
+            margin-top: 10px !important;
+        }
+    }
+}

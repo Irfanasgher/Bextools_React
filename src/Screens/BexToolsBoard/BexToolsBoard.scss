@@ -1,0 +1,175 @@
+#uniswap {
+	.tools {
+		background-color: #242434;
+		padding: 20px;
+		border-radius: 14px;
+
+		h1.swap-tools {
+			font-size: 35px;
+			color: #fff;
+			text-align: center;
+
+			span {
+				color: #f0b90b;
+				font-weight: normal;
+			}
+		}
+		.tool-container {
+			// width: 100%;
+			background-color: #0e0f21;
+			text-align: center;
+			border-radius: 12px;
+
+			.pair-explorer {
+				font-size: 24px;
+				color: #fff;
+				font-weight: normal;
+			}
+		}
+		.polk {
+			background-color: #0e0f21;
+			border-radius: 12px;
+
+			.polkamar {
+				font-size: 49px;
+				color: #fff;
+				margin-bottom: 0;
+				line-height: 25px;
+
+				span {
+					font-size: 23px;
+				}
+			}
+			p.currency {
+				color: #f64e60;
+				font-size: 23px;
+				margin-bottom: 0;
+			}
+			.pair-image {
+				height: 50px;
+			}
+		}
+		.rowData {
+			.mod {
+				font-size: 22px;
+				color: #fff;
+				margin-bottom: 0;
+			}
+			.currency-red {
+				color: #f64e60;
+				font-size: 23px;
+				margin-bottom: 0;
+			}
+			.currency-green {
+				color: #0bb783;
+				font-size: 23px;
+				margin-bottom: 0;
+			}
+			.inner-image {
+				height: 30px;
+			}
+		}
+	}
+
+	.input-field {
+		.ant-input-affix-wrapper {
+			padding: 4px 11px;
+			color: #a8abb5;
+			font-size: 14px;
+			background-color: #242434;
+			border: 1px solid #242434;
+			border-radius: 10px;
+
+			.ant-input {
+				color: #a8abb5;
+				background-color: #242434;
+				border: 1px solid #242434;
+			}
+		}
+		.ant-btn-icon-only {
+			width: 32px;
+			height: 32px;
+			padding: 0;
+			font-size: 16px;
+			display: flex;
+			align-items: center;
+			justify-content: center;
+		}
+		.ant-btn-circle {
+			border-radius: 29%;
+		}
+		.ant-btn {
+			border: 0;
+		}
+	}
+	.created {
+		align-self: start;
+		font-size: 0.75rem;
+		color: #5a6169;
+	}
+	.ng-star-inserted-heading {
+		color: #fff;
+		line-height: 1.4rem;
+		font-size: 1rem;
+	}
+	.logo-next {
+		max-height: 50px;
+		max-width: 50px;
+		display: inline-block;
+		vertical-align: middle;
+		// background: #3d5170;
+		border-radius: 9px;
+		padding: 5px;
+	}
+}
+
+@media (max-width: 1024px) {
+	#uniswap {
+		.tools {
+			h1.swap-tools {
+				font-size: 26px;
+			}
+			.tool-container {
+				.pair-explorer {
+					font-size: 18px;
+				}
+			}
+		}
+	}
+}
+
+@media (max-width: 425px) {
+	#uniswap {
+		.tools {
+			.polk {
+				.polkamar {
+					font-size: 18px !important;
+					line-height: 10px;
+					span {
+						font-size: 12px;
+					}
+				}
+				p.currency {
+					font-size: 12px;
+				}
+				.pair-image {
+					height: 30px;
+				}
+			}
+			.rowData {
+				.mod {
+					font-size: 14px;
+				}
+				.currency-red {
+					font-size: 12px;
+				}
+				.currency-green {
+					font-size: 12px;
+				}
+				.inner-image {
+					height: 20px;
+				}
+			}
+		}
+	}
+}

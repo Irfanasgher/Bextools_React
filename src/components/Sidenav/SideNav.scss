@@ -1,0 +1,47 @@
+#sidenav {
+	.logo {
+		p {
+			color: #a8abb5;
+			font-size: 13px;
+			font-weight: bold;
+		}
+	}
+	.sub-title {
+		width: 100%;
+		text-align: center;
+		padding: 14px;
+		padding-left: 0;
+		background-color: #989898;
+	}
+	.ant-layout-sider {
+		background: #242434;
+		height: 100%;
+	}
+	.ant-menu.ant-menu-dark,
+	.ant-menu-dark .ant-menu-sub,
+	.ant-menu.ant-menu-dark .ant-menu-sub {
+		background: #242434;
+	}
+
+	.ant-menu-dark .ant-menu-item,
+	.ant-menu-dark .ant-menu-item-group-title,
+	.ant-menu-dark .ant-menu-item > a,
+	.ant-menu-dark .ant-menu-item > span > a {
+		color: #a8abb5;
+	}
+	.ant-menu-dark.ant-menu-dark:not(.ant-menu-horizontal) .ant-menu-item-selected {
+		background-color: #242434;
+		color: #fff !important;
+	}
+	.ant-menu-vertical .ant-menu-item::after,
+	.ant-menu-vertical-left .ant-menu-item::after,
+	.ant-menu-vertical-right .ant-menu-item::after,
+	.ant-menu-inline .ant-menu-item::after {
+		position: absolute;
+		top: 0;
+		left: 0;
+		bottom: 0;
+		border-left: 4px solid #f0b90b;
+		content: '';
+	}
+}

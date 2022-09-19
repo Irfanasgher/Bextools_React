@@ -1,0 +1,89 @@
+#navbar1 {
+    width: 100%;
+    background-color: #0c0c0c;
+    border-bottom: 1px solid rgba(112, 112, 112, 0.2);
+    padding: 10px;
+    .list {
+        margin-bottom: 0;
+        padding-right: 15px;
+        margin-top: 8px;
+        margin-left: 20px;
+        font-family: 'Menlo Regular';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 15px;
+        line-height: 19px;
+        color: #ffffff;
+        transition: all 0.3s ease-in-out;
+        &:hover {
+            color: #fff;
+            transition: all 0.3s ease-in-out;
+        }
+    }
+    .custom-dropdown {
+        .nav-link {
+            display: block;
+            padding: 0 1rem;
+            margin-top: 8px;
+            font-family: 'Menlo Regular';
+            font-style: normal;
+            font-weight: 600;
+            font-size: 15px;
+            line-height: 19px;
+            color: #ffffff;
+            transition: all 0.3s ease-in-out;
+            &:hover {
+                color: #fff;
+                transition: all 0.3s ease-in-out;
+            }
+        }
+        .dropdown-toggle::after {
+            vertical-align: 2px;
+            content: '';
+        }
+    }
+    .connect {
+        background: #f0b90b;
+        border-radius: 3px;
+        padding: 15px 15px;
+        height: 10px;
+        width: 220px;
+        .wallet {
+            font-family: 'Menlo Regular';
+            font-style: normal;
+            font-weight: bold;
+            font-size: 15px;
+            line-height: 19px;
+            color: #000000;
+            margin-bottom: 0;
+            text-align: center;
+        }
+    }
+    .dropdown-menu {
+        background-color: #0c0c0c;
+    }
+    .dropdown-item {
+        color: #ffffff;
+        font-family: "Menlo Regular";
+        font-size: 13px;
+    }
+    .dropdown-item.active,
+    .dropdown-item:active {
+        background-color: #cacedb;
+    }
+    .dropdown-item:hover {
+        background-color: #cacedb;
+        color: #000000
+    }
+}
+
+@media (max-width: 768px) {
+    #navbar1 {
+        overflow-x: scroll;
+    }
+}
+
+@font-face {
+    font-family: 'Menlo Regular';
+    src: local('Menlo Regular'), url('../../assets/fonts/Menlo-Regular.woff') format('woff');
+}

@@ -1,0 +1,15 @@
+#tab-panel {
+    .ant-tabs-top>.ant-tabs-nav::before,
+    .ant-tabs-bottom>.ant-tabs-nav::before,
+    .ant-tabs-top>div>.ant-tabs-nav::before,
+    .ant-tabs-bottom>div>.ant-tabs-nav::before {
+        border-bottom: 0px solid #f0b90b;
+        content: '';
+    }
+    .ant-tabs-tab {
+        font-size: 14px;
+        font-weight: 600;
+        color: #cacedb;
+        box-sizing: border-box;
+    }
+}
